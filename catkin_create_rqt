@@ -76,7 +76,7 @@ class CreateRqtPkg:
         files.append((os.path.join(self.path, 'plugin.xml'),
                       os.path.join(template_name, 'plugin.xml')))
         files.append((os.path.join(self.path, 'package.xml'),
-                      os.path.join(template_name, 'package.xml.template')))
+                      os.path.join(template_name, 'package.xml')))
         files.append((os.path.join(self.path, 'CMakeLists.txt'),
                       os.path.join(template_name, 'CMakeLists.txt')))
         files.append((os.path.join(self.path_scripts, self.pkg_name),
