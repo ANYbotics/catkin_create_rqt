@@ -4,8 +4,10 @@
 
 This is a very basic script to create a standard rqt plugin for ROS.
 The script will generate a ready to use rqt package including source code files.
-There are some input arguments supported to customize the package a bit. 
+There are some input arguments supported to customize the package a bit.
 By setting `-y` the script generates a rqt package in python.
+
+The source code is released under a [BSD 3-Clause license](LICENSE).
 
 ## Usage
 
